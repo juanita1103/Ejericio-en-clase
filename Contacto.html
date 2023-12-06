@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/contacto.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Django Enterprise</h1>
+      <ul>
+        <li>
+          <a href="/index.html">Inicio <i class="fa-solid fa-house"></i></a>
+        </li>
+        <li>
+          <a href="#">Acerca de nosotros <i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a href="Productos.html"
+            >Productos <i class="fa-solid fa-store"></i
+          ></a>
+        </li>
+        <li>
+          <a href="/Contacto.html"
+            >Contactenos <i class="fa-solid fa-phone"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <img
+        src="/img/contactoimagen.png"
+        alt="Gamer en su setup"
+        title="Gamer en su setup"
+      />
+
+      <form action="submit" autocomplete="off">
+        <label for="Nombre">Nombre:</label>
+        <input
+          type="text"
+          name="Nombre"
+          id="Name"
+          placeholder="Ingrese nombre:"
+          class="campo"
+          required
+        />
+
+        <label for="Apellido">Apellido:</label>
+        <input
+          type="text"
+          name="Apellido"
+          id="lastName"
+          placeholder="Ingrese Apellido:"
+          class="campo"
+          required
+        />
+
+        <label for="Correo">Correo:</label>
+        <input
+          type="email"
+          name="Correo"
+          id="Email"
+          placeholder="Ingrese correo:"
+          class="campo"
+          required
+        />
+
+        <label for="Telefono">Telefono:</label>
+        <input
+          type="number"
+          name="Telefono"
+          id="Phone"
+          placeholder="Ingrese telefono:"
+          class="campo"
+          required
+        />
+
+        <label for="Mensaje">Mensaje:</label>
+        <input
+          type="textarea"
+          name="Mensaje"
+          id="Message"
+          placeholder="Ingrese un mensaje:"
+          class="campo"
+          required
+        />
+
+        <button>Enviar<span></span></button>
+      </form>
+    </section>
+  </body>
+</html>

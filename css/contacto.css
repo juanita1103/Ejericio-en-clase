@@ -1,0 +1,86 @@
+/* Dependencias */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(0, 176, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 176, 255, 1) 0%,
+    rgba(136, 0, 255, 1) 100%
+  );
+}
+
+nav {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  color: #fff;
+}
+
+li {
+  padding: 0 10px;
+  display: inline;
+}
+
+a,
+i {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  margin-top: 5%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 70px;
+}
+
+section img{
+  padding-left: 50px;
+  margin-left: 70px;
+}
+
+section form{
+  background-color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;  
+  justify-content: flex-start;
+}
+
+label{
+  font-family: 'Nunito', sans-serif;
+  padding: 12px 15px 2px;
+  text-align: left;
+}
+
+input{
+  font-family: 'Nunito', sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  width: 50%;
+  margin-left: 20px;
+}
+
+button{
+  margin-left: 30%;
+  margin-top: 10px;
+  width: 30%;
+}
