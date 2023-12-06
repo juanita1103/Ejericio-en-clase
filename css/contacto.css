@@ -75,12 +75,58 @@ input{
   font-family: 'Nunito', sans-serif;
   padding: 10px;
   font-size: 15px;
-  width: 50%;
+  width: 80%;
   margin-left: 20px;
 }
 
 button{
-  margin-left: 30%;
-  margin-top: 10px;
-  width: 30%;
+  margin-top: 20px;
+  width: 10vw;
+  height: 3vh;
+  border-radius: 5px;
+  border: 1px #5f5959;
+  background-color: rgba(136, 0, 255, 0.741);
+  color: #fff;
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+
+  body{
+    background:  rgba(0, 176, 255, 1) ;
+  }
+
+  .primary-nav-bar {
+    display: none;
+  }
+
+  section img{
+    margin: 0px 0px 10px 70px;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+    padding: 0;
+  }
+
+  form{
+    padding: 10px;
+  }
+
+  section {
+    margin: 0;
+    padding: 20px;
+    display: block;
+  }
+  
+  button{
+    width: 40vw;
+    height: 5vh;
+  }
+
 }
