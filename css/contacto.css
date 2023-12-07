@@ -26,6 +26,10 @@ nav {
   color: #fff;
 }
 
+.nav-bar-mobile{
+  display: none;
+}
+
 li {
   padding: 0 10px;
   display: inline;
@@ -102,6 +106,10 @@ button{
 
   .primary-nav-bar {
     display: none;
+  }
+
+  .nav-bar-mobile{
+    display: flex;
   }
 
   section img{
